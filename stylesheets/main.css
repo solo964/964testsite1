@@ -44,8 +44,6 @@ p {
   line-height: 1.5em;
 }
 
-.clearfix {
-  *zoom: 1;
 }
 .clearfix:before, .clearfix:after {
   content: ' ';
