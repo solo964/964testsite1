@@ -46,7 +46,7 @@ button {
 </style> 
 </head>  
 <body>  
-    <center> <h1> Flix2Go Login Form </h1> </center> 
+    <center> <h1> Heart Disease Predictor Login</h1> </center> 
     <form id = "login-form">
         <div class="container"> 
             <label>Username : </label> 
@@ -67,9 +67,9 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "admin" && password === "admin") {
+    if (username === "admin" && password === "password") {
         alert("Login Successful");
-        window.location = "https://mybinder.org/v2/gh/wduangoupa/Capstone/07d3eccdfbec4c8f812bdfc403c93962bfae6171?filepath=Movie-Recommendation.ipynb";
+        window.location = "https://soloc964test.herokuapp.com/";
     } else {
         alert("Please enter the correct username and password.");
     }
