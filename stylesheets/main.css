@@ -12,12 +12,18 @@
 }
 
 /* ---------- GENERAL ---------- */
-
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+*:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
 
 body {
-  border: none;
   background: #2c3338;
-  color: #2c3338;
+  color: #606468;
   font: 87.5%/1.5em 'Open Sans', sans-serif;
   margin: 0;
 }
@@ -44,6 +50,8 @@ p {
   line-height: 1.5em;
 }
 
+.clearfix {
+  *zoom: 1;
 }
 .clearfix:before, .clearfix:after {
   content: ' ';
