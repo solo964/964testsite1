@@ -22,6 +22,7 @@
 }
 
 body {
+  border: none;
   background: #2c3338;
   color: #2c3338;
   font: 87.5%/1.5em 'Open Sans', sans-serif;
